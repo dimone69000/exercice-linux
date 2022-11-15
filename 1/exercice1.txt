@@ -1,0 +1,5 @@
+mkdir -p chemin/du/dossier et la commande créera tous les dossiers nécessaires pour que votre dossier dossier existe.
+puis 
+nano chemin/vers/le/fichier installé par défaut sur la plupart des systèmes pour créer un fichier
+
+
