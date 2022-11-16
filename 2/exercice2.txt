@@ -1,0 +1,54 @@
+Le poids en octets est de 400 soit 4.0 kilo octets
+Advanced Packaging Tool est un système complet et avancé de gestion de paquets, permettant :
+
+une recherche facile et efficace,
+une installation simple et une désinstallation propre de logiciels et utilitaires.
+Il permet aussi de facilement tenir à jour votre distribution Ubuntu avec les paquets en versions les plus récentes et de passer à une nouvelle version de Ubuntu, lorsque celle-ci est disponible.
+
+Nom	Description
+apt	Gestion des paquets (pour un utilisateur final)
+apt-get, apt-cache, apt-file	Gestion des paquets (pour un script)
+aptitude	Gestion des paquets - interface semi-graphique
+dpkg	Gestion des paquets hors dépôts
+deborphan	Trouver les paquets non utilisés, appelés orphelins
+dselect (param DPKG)	Gestion des paquets - interface à dpkg
+wajig	Outil d’administration simplifié pour apt, dpkg et dselect
+
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root         1  0.0  0.0    896   524 ?        Sl   09:02   0:00 /init
+root         7  0.0  0.0    896    80 ?        Ss   09:02   0:00 /init
+root         8  0.0  0.0    896    80 ?        S    09:02   0:03 /init
+dimitri      9  0.0  0.1  16248  8096 pts/0    Ss   09:02   0:02 -zsh
+dimitri     14  0.0  0.0  12532  3864 pts/0    S    09:02   0:00 -zsh
+dimitri     15  0.0  0.0  12532  2144 pts/0    S    09:02   0:00 -zsh
+dimitri    143  0.0  0.1  16352  8684 pts/0    S    09:31   0:11 zsh
+dimitri   1305  0.0  0.0   6036   456 ?        Ss   11:58   0:00 ssh-agent -s
+dimitri   1766  0.0  0.0  10604  3296 pts/0    R+   12:55   0:00 ps aux
+
+
+apt (Another Packaging Tool) est un gestionnaire de paquets qui offre un ensemble de commandes vous permettant de gérer les programmes et librairies installés sur votre machine. Il faut avoir les droits de super-utilisateur pour s'en servir (en général, il faut utiliser la commande sudo avant votre programme).
+apt est un exécutable de notre terminal
+Dans quel dossier est rangé la configuration d'un programme comme apt ?
+
+dans le dossier /bin.
+
+Quelle commande utiliser pour lister les processus actuellement actifs ? Afficher les résultats pour tous les utilisateurs du système et les ajouter à votre fichier ?
+
+ps -aux
+
+Quelles sont les différences entre les commandes less et more ?
+
+less
+less chemin/vers/le/fichier ouvre une interface pour lire le fichier fichier et permet d'y naviguer, d'y faire des recherches, etc.
+more
+more chemin/vers/le/fichier affiche le contenu du fichier progressivement (écran par écran), jusqu'à la fin du fichier.
+
+Quelle commande utiliser pour demander "poliment" l'arrêt du programme java ?
+
+SIGTERM (15) lui demande gentiment de se fermer (signal par défaut)
+
+
+Quelle commande utiliser pour arrêter le processus ayant l'identifiant 5240 ?
+
+kill 9 5240
+
